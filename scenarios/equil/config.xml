@@ -15,6 +15,18 @@
 		<param name="inputPlansFile" value="plans100.xml" />
 	</module>
 
+	<module name="planscalcroute">
+		<parameterset type="teleportedModeParameters">
+			<param name="mode" value="walk"/>
+			<param name="constant" value="0.0"/>
+			<param name="marginalUtilityOfTraveling_util_hr" value="-6.0"/>
+			<param name="marginalUtilityOfDistance_util_m" value="-0.0004"/>
+			<param name="monetaryDistanceRate" value="0.0"/>
+			<param name="teleportedModeSpeed" value="1.38889"/>
+			<param name="beelineDistanceFactor" value="1.3"/>
+		</parameterset>
+	</module>
+
 	<module name="controler">
 		<param name="outputDirectory" value="./output" />
 		<param name="firstIteration" value="0" />
